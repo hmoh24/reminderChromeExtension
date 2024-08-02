@@ -5,6 +5,6 @@
   "version": "0.1",
   "action": {
     "default_popup": "testPopup.html",
-    "default_icon": "extensionIcon.webp"
+    "default_icon": "extensionIcon.jpg"
   }
 }
