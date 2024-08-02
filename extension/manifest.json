@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Pet Cat Reminder",
+  "description": "Base Level Extension",
+  "version": "0.1",
+  "action": {
+    "default_popup": "testPopup.html",
+    "default_icon": "extensionIcon.webp"
+  }
+}
