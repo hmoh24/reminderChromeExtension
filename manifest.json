@@ -19,15 +19,20 @@
     {
       "js": ["scripts/script.js"],
       "matches": [
-        "https://developer.chrome.com/docs/extensions/*",
-        "https://developer.chrome.com/docs/webstore/*"
-      ]
+        "<all_urls>"
+       ]
     }
   ],
   "permissions": [
-    "sidePanel"
+    "sidePanel",
+    "storage",
+    "activeTab"
   ],
   "side_panel": {
     "default_path": "sidepanel/sidepanel.html"
-  }
+  },
+   "background": {
+      "service_worker": "service-worker.js",
+      "type": "module"
+    }
 }

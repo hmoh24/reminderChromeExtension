@@ -20,4 +20,6 @@ The character will be animated and be able to be dragged and dropped at the edge
 
 ## Learnings and reflections
 
-what
+It's genuinely difficult to go through the documentation and parse the dense information there. I also go down rabbit holes of things that I do not need yet.
+
+I need to remember to slow down and take the project bit by bit.
