@@ -23,5 +23,11 @@
         "https://developer.chrome.com/docs/webstore/*"
       ]
     }
-  ]
+  ],
+  "permissions": [
+    "sidePanel"
+  ],
+  "side_panel": {
+    "default_path": "sidepanel/sidepanel.html"
+  }
 }
