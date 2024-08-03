@@ -2,10 +2,26 @@
 {
   "manifest_version": 3,
   "name": "Pet Cat Reminder",
-  "description": "Base Level Extension",
+  "description": "A reminder extension with customisable reminders and notification cadence",
   "version": "0.1",
   "action": {
     "default_popup": "popup/testPopup.html",
-    "default_icon": "images/extensionIcon.jpg"
-  }
+    "default_icon": "images/favicon-32x32.png"
+  },
+  "icons": {
+    "16": "images/icon16.ico",
+    "32": "images/icon32.ico",
+    "48": "images/icon48.ico",
+    "64": "images/icon64.ico",
+    "128": "images/icon128.ico"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/script.js"],
+      "matches": [
+        "https://developer.chrome.com/docs/extensions/*",
+        "https://developer.chrome.com/docs/webstore/*"
+      ]
+    }
+  ]
 }
